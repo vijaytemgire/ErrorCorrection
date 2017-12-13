@@ -16,7 +16,11 @@
         "runnerId": "webapprunner",
         "id": 5250726,
         "displayName": "Run index.html",
+<<<<<<< HEAD
+        "lastRunTimeStamp": 1513160717163
+=======
         "lastRunTimeStamp": 1513144212485
+>>>>>>> branch 'master' of https://github.com/vijaytemgire/ErrorCorrection.git
       }
     }
   ]

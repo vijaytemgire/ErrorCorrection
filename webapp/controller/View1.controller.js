@@ -12,6 +12,13 @@ sap.ui.define([
         onExpandFirstLevel: function () {
             var oTreeTable = this.getView().byId("TreeTableBasic");
             oTreeTable.expandToLevel(1);
+<<<<<<< HEAD
+            // test
         }
 	});
 });
+=======
+        }
+	});
+});
+>>>>>>> branch 'master' of https://github.com/vijaytemgire/ErrorCorrection.git
