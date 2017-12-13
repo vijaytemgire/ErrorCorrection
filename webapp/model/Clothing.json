@@ -1,0 +1,31 @@
+{
+  "catalog": {
+    "policyData": {
+      "categories": [
+        {"name": "Policy_1", "categories": [
+	        			 {"name": "Policy start Date", "amount": "8/7/17"},
+	        	         {"name": "Application Date", "amount": "8/7/17"},
+	        		     {"name": "Sell product temp ID", "amount": "PC_123"},
+	        	         {"name": "Policy holder", "amount":"Harman"},
+	        	         {"name": "Insurance duration", "amount":"2 years"},
+	        	         {"name": "Communication contract partner ", "amount":"MSG"},
+	        	         {"name": "Dicount", "amount":"20%"},
+          {"name":"Contract", "categories": [
+	        			{"name": "Contract start date", "amount":"8/7/17" },
+	        		    {"name": "Contract end date", "amount":"8/7/17" },
+	        			{"name": "Contract number", "amount": 99 },
+	        		    {"name": "Total sum insured", "amount": 16 },
+	        		    {"name": "Incoming payment method", "amount":"Online"},
+            {"name": "Coverage", "categories": [
+            		  {"name": "Coverage start date", "amount": "8/7/17"},
+            		  {"name": "Status", "amount": "ok", "currency": "EUR"},
+                	  {"name": "Risk currecy", "amount": "EUR"},
+                      {"name": "Elematory product", "amount": "NON"}
+                
+            ]}
+          ]}
+        ]}
+        ]}
+
+    }
+  }

@@ -1,0 +1,38 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns="sap.ui.table" xmlns:mvc="sap.ui.core.mvc" xmlns:m="sap.m"
+	xmlns:u="sap.ui.unified" xmlns:core="sap.ui.core" controllerName="errorCorrection.controller.View1" height="100%">
+	<m:Page title="ErrorCorection ">
+		<m:content>
+			<TreeTable id="TreeTableBasic" rows="{path:'/catalog/policyData', parameters: {arrayNames:['categories']}}" selectionMode="None"
+				enableSelectAll="true">
+				<toolbar>
+					<m:Toolbar>
+						<m:Title id="title" text="Clothing"/>
+						<m:ToolbarSpacer/>
+						<m:Button text="Collapse all" press="onCollapseAll"/>
+						<m:Button text="Expand first level" press="onExpandFirstLevel"/>
+					</m:Toolbar>
+				</toolbar>
+				<columns>
+					<Column >
+						<m:Label text="Categories"/>
+						<template>
+							<m:Text text="{name}" wrapping="false"/>
+						</template>
+					</Column>
+					<Column width="9rem">
+						<m:Label text="Actual Value"/>
+						<template>
+							<m:Text text="{amount}" wrapping="false"/>
+						</template>
+					</Column>
+					<Column width="13rem">
+						<m:Label text="Corrected Value"/>
+						<template>
+							<m:Input required="true"/>
+						</template>
+					</Column>
+				</columns>
+			</TreeTable>
+		</m:content>
+	</m:Page>
+</mvc:View>
