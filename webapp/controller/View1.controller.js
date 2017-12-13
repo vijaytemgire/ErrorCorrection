@@ -12,7 +12,7 @@ sap.ui.define([
         onExpandFirstLevel: function () {
             var oTreeTable = this.getView().byId("TreeTableBasic");
             oTreeTable.expandToLevel(1);
-            // test data
+            // test Vijay...
         }
 	});
 });
